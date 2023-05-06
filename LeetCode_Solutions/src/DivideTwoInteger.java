@@ -1,4 +1,4 @@
-package math;
+
 
 public class DivideTwoInteger {
   	public static int divide(int dividend, int divisor) {
