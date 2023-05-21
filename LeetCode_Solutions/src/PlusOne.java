@@ -4,6 +4,17 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 
 public class PlusOne {
+
+	// test case
+	public static void main(String[] args) {
+		int[] a = { 1, 2, 3, 4, 5, 6, 7, 9 };
+
+		for (int b : plusOne(a)) {
+			System.out.println(b);
+		}
+	}
+
+	// main solution function
 	public static int[] plusOne(int[] digits) {
 		ArrayList<String> newdigits = new ArrayList<String>();
 		ArrayList<Integer> enddigits = new ArrayList<Integer>();

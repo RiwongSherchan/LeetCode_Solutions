@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class MedianOfTwoSortedArrays {
 
+	// test case
 	public static void main(String[] args) {
 		int[] nums1 = { 1, 3 };
 		int[] nums2 = { 2 };
@@ -11,6 +12,7 @@ public class MedianOfTwoSortedArrays {
 		System.out.println("result:" + j);
 	}
 
+	// main solution function
 	public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
 		ArrayList<Integer> arr = new ArrayList<Integer>((nums1.length + nums2.length));
 		int k = 0;

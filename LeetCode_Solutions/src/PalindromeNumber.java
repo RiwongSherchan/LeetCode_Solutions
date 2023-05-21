@@ -1,17 +1,15 @@
-
-
-
 //Question no 9
+
 public class PalindromeNumber {
 
-	//testing
+	// test case
 	public static void main(String[] args) {
 		int x = 121;
 		boolean s = isPalindrome(x);
 		System.out.println(s);
 	}
-	
-//main function
+
+//main solution function
 	public static boolean isPalindrome(int x) {
 		String j = "";
 		String number = String.valueOf(x);
@@ -22,7 +20,7 @@ public class PalindromeNumber {
 			j = j + CharString;
 
 		}
-	
+
 		if (j.equals(number)) {
 			return true;
 		} else {

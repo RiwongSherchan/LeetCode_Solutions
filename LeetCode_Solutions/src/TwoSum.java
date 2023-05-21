@@ -2,7 +2,7 @@
 
 public class TwoSum {
 
-	// testing
+	// test case
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 3, 4, 6, 8, 10, 11 };
 		int target = 10;
@@ -16,7 +16,7 @@ public class TwoSum {
 		}
 	}
 
-	// main solution
+	// main solution function
 	public int[] twoSum(int[] nums, int target) {
 		int[] a = nums;
 		int targets = target;
